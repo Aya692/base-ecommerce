@@ -1,0 +1,77 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+
+img {
+  height: 300px;
+}
+
+
+body {
+  overflow-x: hidden;
+}
+
+a {
+  cursor: pointer;
+}
+.product:hover {
+  border: 1px solid yellow
+}
+.product.btn {
+  transform: translateY(100%);
+  opacity: 0;
+  transition: transform 1s opacity 1s;
+  -webkit-transition: transform 1s opacity 1s;
+  -moz-transition: transform 1s opacity 1s;
+  -ms-transition: transform 1s opacity 1s;
+  -o-transition: transform 1s opacity 1s;
+  -webkit-transform: translateY(100%);
+  -moz-transform: translateY(100%);
+  -ms-transform: translateY(100%);
+  -o-transform: translateY(100%);
+}
+.product:hover .btn{
+  opacity: 1;
+  transform: translateY(0%);
+  -webkit-transform: translateY(0%);
+  -moz-transform: translateY(0%);
+  -ms-transform: translateY(0%);
+  -o-transform: translateY(0%);
+}
+
+span {
+  cursor: pointer;
+}
+
+
+
+.rating-color {
+  color: yellow;
+  font-size: 1.2rem;
+}
+
+
+.network {
+  padding: 20px;
+  background-color: rgb(246, 229, 196);
+  position: fixed;
+  right: 30px;
+  top: 30px;
+  border-radius: 20px ;
+  z-index: 999999999999999;
+  -webkit-border-radius: 20px ;
+  -moz-border-radius: 20px ;
+  -ms-border-radius: 20px ;
+  -o-border-radius: 20px ;
+}
