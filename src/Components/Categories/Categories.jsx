@@ -14,7 +14,7 @@ export default function Categories(){
 
 
     return <>
-        <h1>Counter Aya: {counter}</h1>
+        <h1>Please change counter: {counter}</h1>
        <button className="btn btn-info" onClick={()=> setCounter(counter+1)}>+</button>
        <button className="btn btn-info" onClick={()=> setCounter(counter-1)}>-</button>
       <input ref={myInput} />
